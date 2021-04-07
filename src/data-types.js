@@ -5,7 +5,7 @@ function convert() {
     newArray[i] = typeof element === 'number' 
       ? element.toString() 
       : parseInt(element);
-  };
+  }
 
   return newArray;
 }
